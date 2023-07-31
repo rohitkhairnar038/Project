@@ -1,0 +1,48 @@
+.s{
+height: 100vh;
+display: flex;
+margin-top: 1rem;
+}
+
+.sh{
+margin-left: 40rem;
+text-decoration: underline;
+text-decoration-color:blue;
+text-decoration-thickness: 0.25rem;
+margin-top: 5rem;
+color:white;
+
+
+}
+
+
+
+.s-left{
+    margin-top: 6rem;
+  margin-left: 3rem;
+  flex:1rem;
+
+}
+
+.card{
+  transition: all 0.3s;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+
+
+  
+@media screen and (max-width:480px) {
+  .sh{
+    margin-left: 10rem;
+    margin-top: 4rem;
+  }
+  .s{
+    margin-right: 4rem;
+  }
+
+  }
+
+  
+  

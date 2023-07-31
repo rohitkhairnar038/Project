@@ -1,0 +1,101 @@
+.i{
+display: flex;
+background-color:lightgray;
+}
+
+.il{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14rem;
+}
+
+.ir{
+  flex:2;
+  position: relative;
+}
+
+.il-wraper{
+    padding: 3.125rem;
+}
+
+.myintro{
+    font-size: 2rem;
+    font-weight:300;
+}
+
+.myname{
+    font-size: 3.125rem;
+}
+
+.i-desc{
+    font-size: 1rem;
+}
+
+
+.i-title{
+    height: 3.125rem;
+    overflow: hidden;
+}
+
+.i-title-wraper{
+    height: 100%;
+    animation:move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25%{
+        transform: translateY(-3.125rem);
+    }
+    50%{
+        transform: translateY(-6.25rem);
+    }
+    75%{
+        transform: translateY(-9.375rem);
+    }
+    100%{
+        transform: translateY(-12.5rem);
+    }
+    
+}
+
+
+
+
+
+
+.i-title-items{
+    height:3.125rem;
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: rgb(33, 183, 33);
+    display: flex;
+    align-items: center;
+}
+
+.i-img{
+
+width: 60%;
+height:80%;
+position: absolute;
+margin-left: 15rem;
+margin-top: 6.5rem;
+}
+
+.i-bg1{
+    clip-path: polygon(100% 0%, 100% 53%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    width:100%;
+    height:100%;
+    background-color:lightgray;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width:480px) {
+    .i{
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,84 @@
+.cont{
+    height: 100vh;
+}
+.conttitle{
+    margin-left: 35rem;
+    text-decoration: underline;
+    text-decoration-color:blue;
+    text-decoration-thickness: 0.25rem;
+    color: white;
+}
+
+
+.contmain{
+padding:3.125rem;
+display: flex;
+color: white;
+}
+
+.continfo{
+    color: white;
+}
+
+.cont-left{
+    flex:1;
+}
+
+
+.icon{
+    height:5vh;
+    width:5vw;
+    
+}
+
+
+.cont1{
+margin-top: 4rem;
+
+
+}
+
+
+.cont-right{
+    flex:1.5;
+}
+
+.input1{
+width:100%;
+height:3.125rem;
+margin:1rem;
+flex:1;
+
+}
+
+.input2{
+ width:100%;
+ padding: 2rem;
+ margin-left: 1rem;
+
+}
+
+#btn1{
+
+    margin-left: 2rem;
+}
+
+
+    
+
+@media screen and (max-width:480px) {
+    .cont{
+        margin-top: 50rem;
+        margin-right: 2rem;
+    }
+}
+
+    .cont-left{
+        overflow:hidden;
+    
+    }
+
+    .conttitle{
+        margin-left: 7rem;
+    }
+
